@@ -1,17 +1,25 @@
 ## Trabajo práctico final de la asignatura DCI ##
 Este repositorio contiene el trabajo práctico final para la asignatura de Diseño de Circuitos Impresos de la carrera de posgrado de FIUBA.
 
-* Autor: XXXXCOMPLETARXXXX
-* Título corto del trabajo:  XXXXCOMPLETARXXXX
-* Descripción:  XXXXCOMPLETARXXXX (Debe aclarar la función y el objetivo del cto.)
+* Autor: Ing. Mauro Ariel Gianchino
+* Título corto del trabajo: Réplica del módulo Adafruit TLV320DAC3100: DAC I2S con salida de auriculares y parlante  
+* Descripción:  Réplica en KiCad del módulo Adafruit TLV320DAC3100 I2S DAC with Headphone and Speaker Out (PID 6309). El circuito recibe audio digital por I2S (BCLK, WSEL, DIN) y lo convierte, con el códec TLV320DAC3100 de Texas Instruments, en audio analógico: salida estéreo para auriculares de 16 Ω con acople AC y salida mono clase D para parlante de 4–8 Ω (hasta 2,5 W sobre 4 Ω alimentado con 5 V). Se configura por I2C, genera MCLK internamente con una PLL desde BCLK, y admite headset con micrófono (jack TRRS con detección). Se alimenta con 3–5 V y expone sus señales en dos headers. El objetivo del TP es rediseñar esquemático y PCB de forma nativa en KiCad, aplicando las pautas de la asignatura (IPC, reglas de fabricación relajadas, límites de fabricantes locales). El resultado debe ser un primer prototipo fácil de ensamblar y retrabajar.
 * Cursada: OCT-NOV-DIC 2026
 
 
 ## Licencia de este trabajo ##
-XXXMENCIONAR ACÁ LA LICENCIAXXX (Editar este párrafo) 
-Y además colcar el archivo de texto de la misma en el directorio raíz.
-Para este TP se pide que la licencia sea de hardware abierto.
-Ver la sección "What license should I use?": https://www.oshwa.org/faq/
+Este trabajo es una obra derivada (adaptación) del diseño de PCB del módulo *Adafruit TLV320DAC3100 I2S DAC with Headphone and Speaker Out*, publicado por Adafruit Industries en https://github.com/adafruit/Adafruit-TLV320DAC3100-I2S-DAC-PCB bajo la licencia Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0). El diseño original fue modificado.
+
+Conforme a la cláusula ShareAlike, esta adaptación se distribuye bajo la misma licencia, **CC BY-SA 3.0 Unported**. El texto completo está en el archivo [license.txt](license.txt) de la raíz de este repositorio (también disponible en https://creativecommons.org/licenses/by-sa/3.0/legalcode).
+
+
+## Estado del proyecto ##
+- [x] Propuesta
+- [ ] Esquemático
+- [ ] Asociación de huellas y modelos 3D
+- [ ] Posicionamiento
+- [ ] Ruteo y DRC
+- [ ] Documentación final (BOM, gerbers)
 
 ## Estructura del TP FINAL ##
 

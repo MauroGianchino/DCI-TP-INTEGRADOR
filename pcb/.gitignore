@@ -1,0 +1,33 @@
+# .gitignore del proyecto KiCad (pcb/)
+# Ignora archivos temporales, de bloqueo, de copia de seguridad y de cache que genera KiCad.
+# NO ignora: el proyecto (.kicad_pro, .kicad_sch, .kicad_pcb), las tablas de bibliotecas
+# (fp-lib-table, sym-lib-table), bibliotecas propias, modelos 3D, BOM, gerbers ni archivos de fabricacion.
+
+# Archivos de bloqueo (contienen nombre del equipo y del usuario)
+*.lck
+~*
+
+# Copias de seguridad y autoguardado
+*.bak
+*.bck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.sch-bak
+*-backups/
+_autosave-*
+*-save.kicad_pcb
+*-save.pro
+*.000
+*.tmp
+*~
+
+# Configuracion local de cada usuario (disposicion de ventanas, etc.)
+*.kicad_prl
+
+# Cache de bibliotecas de huellas
+fp-info-cache
+
+# Archivos intermedios que se pueden regenerar
+*.net
+*.dsn
+*.ses
